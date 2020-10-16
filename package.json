@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.1.2",
+    "webpack-cli": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
 }
