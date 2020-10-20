@@ -1,10 +1,12 @@
-import react from 'react';
+import React from 'react';
 
 const App = () => {
 
-    <div>
-        webpack welcome you to this amazing ecosystem of shitty entitled developers
-    </div>
+    return (
+        <div>
+            webpack welcome you to this amazing ecosystem of shitty entitled developers
+        </div>
+    );
 }
 
 export default App;
