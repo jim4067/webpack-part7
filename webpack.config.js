@@ -6,6 +6,12 @@ const config = {
         path: path.resolve(__dirname, 'build'),
         filename: 'main.js'
     },
+    devServer: {
+        contentBase: path.resolve(__dirname, 'build'),
+        compress: true,
+        port: 3040
+    },
+
     module: {
         rules: [
             {
